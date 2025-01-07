@@ -1,0 +1,34 @@
+<div class="container">
+    <h2>Compte Management</h2>
+
+    <!-- Form for adding/updating a compte -->
+    <form (ngSubmit)="saveCompte()" class="compte-form">
+        <div class="input-group">
+            <input type="number" class="form-control" id="rib" [(ngModel)]="newCompte.rib" name="rib" required />
+            <button type="button" class="btn btn-secondary" (click)="generateRib()">Generate</button>
+        </div>
+
+        <!-- Select input for Username -->
+        <div class="form-group" *ngIf="!editMode">
+            <label for="username">Username</label>
+            <select id="username" [(ngModel)]="newCompte.nomClient" (change)="onUsernameChange()" name="username"
+                required>
+                <option *ngFor="let user of users" [value]="user.username">{{ user.username }}</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="solde">Solde</label>
+            <input type="number" id="solde" [(ngModel)]="newCompte.solde" name="solde" required />
+        </div>
+
+        <!-- User ID Input (hidden when in edit mode) -->
+        <div class="form-group" *ngIf="newCompte.user">
+            <label for="userId">User ID</label>
+            <input type="number" id="userId" [(ngModel)]="newCompte.user.id" name="userId" [readonly]="editMode"
+                required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">{{ editMode ? 'Update' : 'Save' }}</button>
+    </form>
+</div>

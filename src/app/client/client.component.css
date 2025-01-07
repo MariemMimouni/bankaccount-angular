@@ -1,0 +1,81 @@
+/* User List Container */
+.user-list {
+  padding: 20px;
+  background-color: #e8f5e9; /* Soft green background */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 8px;
+  overflow: hidden; /* Smooth table edges */
+}
+
+table, th, td {
+  border: 1px solid #a5d6a7; /* Light green border */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  color: #2e7d32; /* Dark green text */
+  font-size: 1rem;
+}
+
+/* Header Row Styling */
+th {
+  background-color: #66bb6a; /* Medium green for table header */
+  color: white; /* White text for contrast */
+  font-weight: bold;
+}
+
+/* Cell Styling */
+td {
+  background-color: #f1f8e9; /* Subtle green tint for table cells */
+}
+
+td:hover {
+  background-color: #dcedc8; /* Slightly darker green on hover */
+  cursor: default;
+}
+
+/* Button Styling */
+button {
+  margin-right: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%); /* Green gradient */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%); /* Darker green on hover */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 5px 10px rgba(46, 125, 50, 0.3); /* Soft green shadow */
+}
+
+button:active {
+  transform: translateY(0); /* Reset lift effect */
+  box-shadow: 0 3px 5px rgba(46, 125, 50, 0.2); /* Reduced shadow on click */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  th, td {
+    font-size: 0.9rem; /* Slightly smaller text for smaller screens */
+  }
+
+  button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
