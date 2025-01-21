@@ -1,8 +1,7 @@
-<div class="container">
-    <h2>Compte Management</h2>
-
-    <!-- Form for adding/updating a compte -->
+<div class="form-container d-flex align-items-center">
+<!-- Form for adding/updating a compte -->
     <form (ngSubmit)="saveCompte()" class="compte-form">
+      <h2>Compte Management</h2>
         <div class="input-group">
             <input type="number" class="form-control" id="rib" [(ngModel)]="newCompte.rib" name="rib" required />
             <button type="button" class="btn btn-secondary" (click)="generateRib()">Generate</button>

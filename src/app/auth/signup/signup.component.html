@@ -9,12 +9,6 @@
 <body>
   <div class="signup-wrapper d-flex align-items-center justify-content-center">
     <div class="signup-card">
-      <div class="signup-icon">
-        <svg viewBox="0 0 24 24">
-          <path
-            d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-        </svg>
-      </div>
       <h1 class="form-title">Create Account</h1>
       <form [formGroup]="signupForm" (ngSubmit)="onSignUp()">
         <div class="form-group">
@@ -29,7 +23,8 @@
         <button type="submit" class="signup-btn">Sign Up</button>
       </form>
       <div class="login-link">
-        Already have an account? <a routerLink="/login">Login</a>
+        Already have an account? <br/>
+        <a routerLink="/login">Login</a>
       </div>
     </div>
   </div>

@@ -1,174 +1,174 @@
-    /* General Styling for the Container */
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+    /*!* General Styling for the Container *!*/
+    /*.container {*/
+    /*    max-width: 800px;*/
+    /*    margin: 0 auto;*/
+    /*    padding: 20px;*/
+    /*}*/
 
-    h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #2e7d32; /* Dark green text for headings */
-    }
+    /*h2 {*/
+    /*    text-align: center;*/
+    /*    margin-bottom: 20px;*/
+    /*    color: #2e7d32; !* Dark green text for headings *!*/
+    /*}*/
 
-    /* Form Styling */
-    .compte-form {
-        background-color: #f1f8e9; /* Light green background */
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
+    /*!* Form Styling *!*/
+    /*.compte-form {*/
+    /*    background-color: #f1f8e9; !* Light green background *!*/
+    /*    padding: 20px;*/
+    /*    border-radius: 8px;*/
+    /*    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
+    /*}*/
 
-    .compte-form .form-group {
-        margin-bottom: 15px;
-    }
+    /*.compte-form .form-group {*/
+    /*    margin-bottom: 15px;*/
+    /*}*/
 
-    .compte-form label {
-        font-weight: bold;
-        margin-bottom: 5px;
-        display: block;
-        color: #2e7d32; /* Dark green for labels */
-    }
+    /*.compte-form label {*/
+    /*    font-weight: bold;*/
+    /*    margin-bottom: 5px;*/
+    /*    display: block;*/
+    /*    color: #2e7d32; !* Dark green for labels *!*/
+    /*}*/
 
-    .compte-form input {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #c5e1a5; /* Light green border */
-        border-radius: 4px;
-        background-color: #ffffff; /* White background for input */
-        transition: border-color 0.3s ease;
-    }
+    /*.compte-form input {*/
+    /*    width: 100%;*/
+    /*    padding: 10px;*/
+    /*    font-size: 16px;*/
+    /*    border: 1px solid #c5e1a5; !* Light green border *!*/
+    /*    border-radius: 4px;*/
+    /*    background-color: #ffffff; !* White background for input *!*/
+    /*    transition: border-color 0.3s ease;*/
+    /*}*/
 
-    .compte-form input:focus {
-        border-color: #2e7d32; /* Dark green focus border */
-        outline: none;
-        box-shadow: 0 0 5px rgba(46, 125, 50, 0.4); /* Subtle green shadow */
-    }
+    /*.compte-form input:focus {*/
+    /*    border-color: #2e7d32; !* Dark green focus border *!*/
+    /*    outline: none;*/
+    /*    box-shadow: 0 0 5px rgba(46, 125, 50, 0.4); !* Subtle green shadow *!*/
+    /*}*/
 
-    .compte-form input[readonly] {
-        background-color: #f0f4c3; /* Pale green for readonly fields */
-    }
-    .header .container .h3 {
-        color: white;
-        font-weight: bold;
-        margin-left: -320px;
-        margin-top: -26px;
-    }
+    /*.compte-form input[readonly] {*/
+    /*    background-color: #f0f4c3; !* Pale green for readonly fields *!*/
+    /*}*/
+    /*.header .container .h3 {*/
+    /*    color: white;*/
+    /*    font-weight: bold;*/
+    /*    margin-left: -320px;*/
+    /*    margin-top: -26px;*/
+    /*}*/
 
 
-    .compte-form button {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
+    /*.compte-form button {*/
+    /*    width: 100%;*/
+    /*    padding: 10px;*/
+    /*    font-size: 16px;*/
+    /*    border: none;*/
+    /*    border-radius: 4px;*/
+    /*    cursor: pointer;*/
+    /*    transition: all 0.3s ease;*/
+    /*}*/
 
-    .compte-form button[type="submit"] {
-        background-color: #4caf50; /* Green button for submit */
-        color: white;
-    }
+    /*.compte-form button[type="submit"] {*/
+    /*    background-color: #4caf50; !* Green button for submit *!*/
+    /*    color: white;*/
+    /*}*/
 
-    .compte-form button[type="submit"]:hover {
-        background-color: #388e3c; /* Darker green on hover */
-    }
+    /*.compte-form button[type="submit"]:hover {*/
+    /*    background-color: #388e3c; !* Darker green on hover *!*/
+    /*}*/
 
-    .compte-form button[type="button"] {
-        background-color: #6c757d;
-        color: white;
-        margin-top: 10px;
-    }
+    /*.compte-form button[type="button"] {*/
+    /*    background-color: #6c757d;*/
+    /*    color: white;*/
+    /*    margin-top: 10px;*/
+    /*}*/
 
-    .compte-form button[type="button"]:hover {
-        background-color: #5a6268;
-    }
+    /*.compte-form button[type="button"]:hover {*/
+    /*    background-color: #5a6268;*/
+    /*}*/
 
-    /* Table Styling */
-    .table {
-        width: 100%;
-        margin-top: 30px;
-        border-collapse: collapse;
-        background-color: #ffffff; /* White table background */
-    }
+    /*!* Table Styling *!*/
+    /*.table {*/
+    /*    width: 100%;*/
+    /*    margin-top: 30px;*/
+    /*    border-collapse: collapse;*/
+    /*    background-color: #ffffff; !* White table background *!*/
+    /*}*/
 
-    .table th,
-    .table td {
-        padding: 12px;
-        text-align: left;
-        border: 1px solid #c5e1a5; /* Light green borders */
-    }
+    /*.table th,*/
+    /*.table td {*/
+    /*    padding: 12px;*/
+    /*    text-align: left;*/
+    /*    border: 1px solid #c5e1a5; !* Light green borders *!*/
+    /*}*/
 
-    .table th {
-        background-color: #2e7d32; /* Dark green table header */
-        color: white;
-    }
+    /*.table th {*/
+    /*    background-color: #2e7d32; !* Dark green table header *!*/
+    /*    color: white;*/
+    /*}*/
 
-    .table tbody tr:hover {
-        background-color: #f1f8e9; /* Light green hover effect */
-    }
+    /*.table tbody tr:hover {*/
+    /*    background-color: #f1f8e9; !* Light green hover effect *!*/
+    /*}*/
 
-    /* Button Styling in Tables */
-    .table button {
-        padding: 6px 12px;
-        font-size: 14px;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+    /*!* Button Styling in Tables *!*/
+    /*.table button {*/
+    /*    padding: 6px 12px;*/
+    /*    font-size: 14px;*/
+    /*    border-radius: 4px;*/
+    /*    cursor: pointer;*/
+    /*    transition: background-color 0.3s ease;*/
+    /*}*/
 
-    .table button.btn-warning {
-        background-color: #ffc107; /* Yellow for warning */
-        color: black;
-    }
+    /*.table button.btn-warning {*/
+    /*    background-color: #ffc107; !* Yellow for warning *!*/
+    /*    color: black;*/
+    /*}*/
 
-    .table button.btn-warning:hover {
-        background-color: #e0a800; /* Darker yellow on hover */
-    }
+    /*.table button.btn-warning:hover {*/
+    /*    background-color: #e0a800; !* Darker yellow on hover *!*/
+    /*}*/
 
-    .table button.btn-danger {
-        background-color: #d32f2f; /* Red for danger */
-        color: white;
-    }
+    /*.table button.btn-danger {*/
+    /*    background-color: #d32f2f; !* Red for danger *!*/
+    /*    color: white;*/
+    /*}*/
 
-    .table button.btn-danger:hover {
-        background-color: #b71c1c; /* Darker red on hover */
-    }
+    /*.table button.btn-danger:hover {*/
+    /*    background-color: #b71c1c; !* Darker red on hover *!*/
+    /*}*/
 
-    /* User List Section */
-    .user-list {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f1f8e9; /* Light green background */
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
+    /*!* User List Section *!*/
+    /*.user-list {*/
+    /*    max-width: 900px;*/
+    /*    margin: 0 auto;*/
+    /*    padding: 20px;*/
+    /*    background-color: #f1f8e9; !* Light green background *!*/
+    /*    border-radius: 8px;*/
+    /*    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
+    /*}*/
 
-    .user-list h2 {
-        margin-bottom: 15px;
-        color: #2e7d32; /* Dark green heading */
-    }
+    /*.user-list h2 {*/
+    /*    margin-bottom: 15px;*/
+    /*    color: #2e7d32; !* Dark green heading *!*/
+    /*}*/
 
-    .user-list button {
-        padding: 10px 20px;
-        font-size: 16px;
-        background-color: #4caf50; /* Green buttons */
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        margin-bottom: 15px;
-    }
+    /*.user-list button {*/
+    /*    padding: 10px 20px;*/
+    /*    font-size: 16px;*/
+    /*    background-color: #4caf50; !* Green buttons *!*/
+    /*    color: white;*/
+    /*    border: none;*/
+    /*    border-radius: 4px;*/
+    /*    cursor: pointer;*/
+    /*    transition: all 0.3s ease;*/
+    /*    margin-bottom: 15px;*/
+    /*}*/
 
-    .user-list button:hover {
-        background-color: #388e3c; /* Darker green on hover */
-    }
+    /*.user-list button:hover {*/
+    /*    background-color: #388e3c; !* Darker green on hover *!*/
+    /*}*/
 
-    /* Action Buttons in User List Table */
-    .user-list .action-buttons button {
-        margin-right: 5px;
-    }
+    /*!* Action Buttons in User List Table *!*/
+    /*.user-list .action-buttons button {*/
+    /*    margin-right: 5px;*/
+    /*}*/

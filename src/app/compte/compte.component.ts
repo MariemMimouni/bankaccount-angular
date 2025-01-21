@@ -17,7 +17,7 @@ export class CompteComponent implements OnInit {
 
   ngOnInit(): void {
     this.fetchComptes();
-    
+
   }
   logout():void{
     this.AuthService.logout();
@@ -55,7 +55,10 @@ export class CompteComponent implements OnInit {
   addCompte(): void {
     this.router.navigate(['/compte-form']);
   }
-
+  navigateToClients(): void {
+    console.log('Navigating to Clients Space');
+    this.router.navigate(['/client']);
+  }
   deleteCompteAjax(rib: number): void {
     Swal.fire({
       title: 'Are you sure?',

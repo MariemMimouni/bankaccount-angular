@@ -1,142 +1,279 @@
 /* General Styling for the Container */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: 60px;
+  background: linear-gradient(135deg, #0047ab 0%, #1e90ff 100%);
+  padding: 2rem;
+}
+.form-container {
+  background: linear-gradient(135deg, #0047ab 0%, #1e90ff 100%);
+  min-height: 100vh;
+  padding: 2rem;
+}
+/* Form Styling */
+.compte-form {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  padding: 2.5rem;
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2e7d32; /* Dark green for headings */
+.compte-form h2 {
+  color: #0047ab; /* Updated title color */
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.compte-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.compte-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #0047ab; /* Updated label color */
+}
+
+.compte-form input {
+  padding: 1rem;
+  font-size: 16px;
+  border: 2px solid #d0e2ff; /* Light blue border */
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.compte-form input:focus {
+  border-color: #0047ab; /* Updated focus border */
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 71, 171, 0.2);
+}
+
+.compte-form input[readonly] {
+  background-color: #e8f5ff; /* Light blue for readonly fields */
+}
+
+.compte-form button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #0047ab 0%, #003366 100%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.compte-form button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 71, 171, 0.3);
+}
+
+.compte-form button[type="submit"]:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 71, 171, 0.2);
+}
+
+/*!* Table Styling *!*/
+/*.table {*/
+/*  width: 100%;*/
+/*  margin-top: 30px;*/
+/*  border-collapse: collapse;*/
+/*  background-color: white;*/
+/*}*/
+
+/*.table th,*/
+/*.table td {*/
+/*  padding: 12px;*/
+/*  text-align: left;*/
+/*  border: 1px solid #d0e2ff; !* Light blue borders *!*/
+/*}*/
+
+/*.table th {*/
+/*  background-color: #0047ab; !* Dark blue for headers *!*/
+/*  color: white;*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.table tbody tr:hover {*/
+/*  background-color: #e8f5ff; !* Light blue hover effect *!*/
+/*}*/
+
+/*!* Button Styling in Tables *!*/
+/*.table button {*/
+/*  padding: 6px 12px;*/
+/*  font-size: 14px;*/
+/*  border-radius: 4px;*/
+/*  cursor: pointer;*/
+/*  transition: background-color 0.3s ease;*/
+/*  color: white;*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.table button {*/
+/*  background-color: #0047ab; !* Blue for table buttons *!*/
+/*}*/
+
+/*.table button:hover {*/
+/*  background-color: #003366; !* Dark blue on hover *!*/
+/*}*/
+
+/*.table button.btn-warning {*/
+/*  background-color: #007bff; !* Bright blue for warnings *!*/
+/*  color: white;*/
+/*}*/
+
+/*.table button.btn-warning:hover {*/
+/*  background-color: #0056b3; !* Darker blue for warnings *!*/
+/*}*/
+
+/*.table button.btn-danger {*/
+/*  background-color: #ff4d4d; !* Red for danger buttons *!*/
+/*  color: white;*/
+/*}*/
+
+/*.table button.btn-danger:hover {*/
+/*  background-color: #cc0000; !* Dark red for hover *!*/
+/*}*/
+/* General Styling for the Container */
+.container {
+  background: linear-gradient(135deg, #0047ab 0%, #1e90ff 100%);
+  margin: auto;
+  /*min-height: 100vh;*/
+  /*padding: 2rem;*/
 }
 
 /* Form Styling */
 .compte-form {
-    background-color: #e8f5e9; /* Light green background */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  padding: 2.5rem;
+}
+
+.compte-form h2 {
+  color: #0047ab; /* Updated title color */
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 .compte-form .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .compte-form label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
-    color: #2e7d32; /* Dark green for labels */
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #0047ab; /* Updated label color */
 }
 
 .compte-form input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #a5d6a7; /* Light green border */
-    border-radius: 4px;
-    background-color: #ffffff; /* White background for input */
-    transition: border-color 0.3s ease;
+  width: 100%;
+  padding: 1rem;
+  font-size: 16px;
+  border: 2px solid #d0e2ff; /* Light blue border */
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
 }
 
 .compte-form input:focus {
-    border-color: #2e7d32; /* Dark green focus border */
-    outline: none;
-    box-shadow: 0 0 5px rgba(46, 125, 50, 0.4); /* Subtle green shadow */
+  border-color: #0047ab; /* Updated focus border */
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 71, 171, 0.2);
 }
 
 .compte-form input[readonly] {
-    background-color: #c8e6c9; /* Soft green for readonly fields */
-}
-
-.compte-form button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  background-color: #e8f5ff; /* Light blue for readonly fields */
 }
 
 .compte-form button[type="submit"] {
-    background-color: #4caf50; /* Green button for submit */
-    color: white;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #0047ab 0%, #003366 100%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
 }
 
 .compte-form button[type="submit"]:hover {
-    background-color: #388e3c; /* Darker green on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 71, 171, 0.3);
 }
 
-.compte-form button[type="button"] {
-    background-color: #66bb6a; /* Green for secondary actions */
-    color: white;
-    margin-top: 10px;
-}
-
-.compte-form button[type="button"]:hover {
-    background-color: #2e7d32; /* Dark green on hover */
+.compte-form button[type="submit"]:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 71, 171, 0.2);
 }
 
 /* Table Styling */
 .table {
-    width: 100%;
-    margin-top: 30px;
-    border-collapse: collapse;
-    background-color: #ffffff; /* White table background */
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  background-color: white;
 }
 
 .table th,
 .table td {
-    padding: 12px;
-    text-align: left;
-    border: 1px solid #a5d6a7; /* Light green borders */
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #d0e2ff; /* Light blue borders */
 }
 
 .table th {
-    background-color: #2e7d32; /* Dark green table header */
-    color: white;
-    font-weight: bold;
+  background-color: #0047ab; /* Dark blue for headers */
+  color: white;
+  font-weight: bold;
 }
 
 .table tbody tr:hover {
-    background-color: #e8f5e9; /* Light green hover effect */
+  background-color: #e8f5ff; /* Light blue hover effect */
 }
 
 /* Button Styling in Tables */
 .table button {
-    padding: 6px 12px;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    color: white;
-    font-weight: bold;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
 }
 
 .table button {
-    background-color: #4caf50; /* Default green for table buttons */
+  background-color: #0047ab; /* Blue for table buttons */
 }
 
 .table button:hover {
-    background-color: #2e7d32; /* Dark green on hover */
+  background-color: #003366; /* Dark blue on hover */
 }
 
 .table button.btn-warning {
-    background-color: #66bb6a; /* Green for warnings */
-    color: white;
+  background-color: #007bff; /* Bright blue for warnings */
+  color: white;
 }
 
 .table button.btn-warning:hover {
-    background-color: #388e3c; /* Darker green for warnings */
+  background-color: #0056b3; /* Darker blue for warnings */
 }
 
 .table button.btn-danger {
-    background-color: #43a047; /* Medium green for danger buttons */
-    color: white;
+  background-color: #ff4d4d; /* Red for danger buttons */
+  color: white;
 }
 
 .table button.btn-danger:hover {
-    background-color: #2e7d32; /* Dark green on hover for danger */
+  background-color: #cc0000; /* Dark red for hover */
 }
